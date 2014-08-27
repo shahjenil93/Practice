@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class BlackHorse
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		for(int f=0;f<t;f++)
+		{
+			int n = sc.nextInt();
+			String[] g1 = new String[n];
+			String[] g2 = new String[n];
+			String t1 = sc.next();
+			String t2 = sc.next();
+			
+		}
+	}
+}

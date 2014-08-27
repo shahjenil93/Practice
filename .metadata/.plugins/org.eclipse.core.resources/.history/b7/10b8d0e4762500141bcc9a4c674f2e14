@@ -1,0 +1,32 @@
+import java.util.*;
+public class ReadPhoneNumber 
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		int t =sc.nextInt();
+		for(int e=0;e<t;e++)
+		{
+			String no = sc.next();
+			String code = sc.next();
+			String[] pattern = code.split("-");
+			int n = pattern.length;
+			
+			int i=0;
+			for(i=0;i<n;i++)
+			{
+				
+				for(int j=0;j<Integer.parseInt(pattern[i]);j++)
+				{
+					int count = 1;
+					while(no.charAt(j)==no.charAt(j+1))
+					{
+						j++;
+						count++;
+					}
+				}
+				
+			}
+		}
+	}
+}
