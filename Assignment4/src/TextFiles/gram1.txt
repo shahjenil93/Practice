@@ -1,0 +1,6 @@
+S -> E
+E -> F G
+G -> + F G
+G -> - F G
+G -> ^
+F -> id

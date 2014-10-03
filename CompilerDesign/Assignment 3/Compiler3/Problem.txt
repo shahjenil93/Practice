@@ -1,0 +1,3 @@
+WAP which shall provide an implementation of operator precedence parser. 
+Read an operator grammar and precedence table from input file(s). 
+Read an input sentence and show steps of parsing of the given sentence. (input valid -> parsing successful)

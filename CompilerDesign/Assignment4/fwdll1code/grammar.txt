@@ -1,0 +1,6 @@
+G->E$
+E->TK
+K->+TK/e
+T->FH
+H->*FH/e
+F->(E)/a

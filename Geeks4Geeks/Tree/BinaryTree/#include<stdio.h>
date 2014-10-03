@@ -1,0 +1,60 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+struct node
+{
+	int data;
+	struct node *left;
+	struct node *right;
+}*root;
+
+
+int main()
+{
+	
+}
+
+void create(int data)
+{
+	struct node *left;
+	leaf = (struct node *)malloc(sizeof(struct node));
+	if(root==NULL)
+	{
+		root = leaf;
+		leaf->data = data;
+		leaf->left = NULL;
+		leaf->right = NULL;
+	}
+	else
+	{
+		leaf->data = data;
+		leaf->left = NULL;
+		leaf->right = NULL;
+	}
+}
+
+void print_inorder(struct node *root)
+{
+	print_inorder(root->left);
+	printf("%d ", root->data);
+	print_inorder(root->right);
+}
+
+int max(struct node *root)
+{
+	int rool_val, left, right, max=root->data;
+	if(root!=NULL)
+	{
+		root_val = root->data;
+		left = max(root->left);
+		right = max(root->right);
+
+		if(left>right)
+			max = left;
+		else
+			max = right;
+		if(root->val > max)
+			max= root_val;	
+	}
+	return max;
+}

@@ -1,0 +1,21 @@
+import java.util.PriorityQueue;
+
+
+public class PQ 
+{
+	public static void main(String[] args)
+	{
+		PriorityQueue<Integer> pqueue = new PriorityQueue<Integer>();
+		pqueue.add(3);
+		pqueue.add(40);
+		pqueue.add(60);
+		pqueue.add(90);
+		pqueue.add(30);
+		pqueue.add(80);
+		pqueue.add(20);
+		pqueue.add(70);
+		pqueue.add(80);
+		int x = pqueue.peek();
+		System.out.println(x);
+	}
+}
